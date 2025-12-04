@@ -92,6 +92,11 @@ body {
     color: #f4f4f4;
 }
 
+.card {
+    max-height: 250px;
+    max-width: 300px;
+}
+
 .btn-secondary {
     background-color: #da1010;
 }
@@ -99,6 +104,32 @@ body {
 .btn-secondary:hover {
     background-color: #f4f4f4;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #da1010;
 }
+
+@media screen and (min-width: 768px) {
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+    
