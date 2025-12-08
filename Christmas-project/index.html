@@ -20,6 +20,13 @@
 
     </nav>
 
+    <section class="hero hero-1">
+        <img src="images/christmasPresent800.jpg" alt="Christmas Presents">
+        <div class="hero-content">
+            <h1>Christmas Wishlist</h1>
+        </div>
+    </section>
+
     <section class="cards-section">
         <div class="container">
             <div class="cards-grid">
@@ -119,7 +126,37 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
-                
+                <div class="footer-section footer-nav">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                    </ul>
+                    <div class="footer-section footer-copyright">
+                        <h3>Copyright</h3>
+                        <p>&copy; 2025 All rights reserved</p>
+                    </div>
+
+                    <div class="footer-section footer-disclaimer">
+                        <h3>Educational Use</h3>
+                        <p>This website was created for educational purposes as part of a Computer Science course at Seaway Area Technical Center.</p>
+                        <p>Images and content are used under fair use guidelines for educational purposes. All trademarks and copyrights belong to their respective owners.</p>
+                    </div>
+
+                    <div class="footer-section footer-contact"></div>
+                    <h3>Contact Us</h3>
+                    <form action="mailto:cte-paul.ames@sllboces.org" method="Post" enctype="text/plain">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Type your name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your Email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="name" required placeholder="Type your message here."></textarea>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
