@@ -48,6 +48,18 @@ body {
     transform: translateY(-3px)
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h3 {
+    color: #f4f4f4;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -213,6 +225,10 @@ body {
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 0.5;
+}
+
+.item {
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
